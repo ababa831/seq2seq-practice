@@ -32,7 +32,7 @@ DNNは難しい学習タスクで良好な性能を発揮する強力なモデ�
 - 類似研究は多数存在する．（後でリンクを追加）
 
 - 本論文の結果は次の通り．
-    - 
+    - ＜途中＞
 
 
 ![seq2seq_model](https://github.com/ababa893/seq2seq-practice/blob/images/seq2seq_example.png?raw=true)
