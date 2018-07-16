@@ -85,7 +85,7 @@ WMT’14 English to French MT タスク
 #### 学習の詳細
 - 4層のLSTM
     - 各層で1000（メモリ）セル
-    - 各層で1000次元の単語embedding（ソース言語16万語，ターゲット言語8万語）
+    - 1000次元の単語embedding（ソース言語16万語，ターゲット言語8万語）
     - 層を増やすごとに約10%の[perplexity](https://www.slideshare.net/hoxo_m/perplexity)(評価指標)が小さくなる．おそらく隠れ状態がより大きくなるためかと．
     - 出力層の活性化関数に，8万語のsoftmaxを用いる
     - 更なる詳細

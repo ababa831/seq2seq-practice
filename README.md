@@ -22,3 +22,9 @@ Seq2Seqの論文とその関連（主要）研究を読み，実際にデモを�
 ### Model
 
 `./models/seq2seq.py`のSeq2Seqクラスが本体．
+
+```
+def seq2seq_model():
+    
+
+```
