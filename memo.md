@@ -29,13 +29,12 @@ DNNは難しい学習タスクで良好な性能を発揮する強力なモデ�
         - 二つ目のLSTM（decoder側）は，入力系列によって調整された点以外は基本的にRNN言語モデルである．
         - LSTMをつかって一時的に保存された長期間の依存関係をもつデータを上手く学習できる能力は，入力とそれに対応する出力間におけるかなりのタイムラグを保持できる下図のような構造をとっているおかげ．
 
+![seq2seq_model](https://github.com/ababa893/seq2seq-practice/blob/images/seq2seq_example.png?raw=true)
+
 - 類似研究は多数存在する．（後でリンクを追加）
 
 - 本論文の結果は次の通り．
     - ＜途中＞
-
-
-![seq2seq_model](https://github.com/ababa893/seq2seq-practice/blob/images/seq2seq_example.png?raw=true)
 
 
 
