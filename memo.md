@@ -68,7 +68,15 @@ LSTMの目的は，条件付確率`p(y_1, ..., y_T | x_1, ..., x_T')`を推定�
 
 上記の点を守ることで，シンプルなモデルであっても飛躍的にLSTMの性能を上昇させることができる．
 
+### 実験　（細かい説明は省略）
+WMT’14 English to French MT タスク
 
+#### データセット
+- WMT’14 English to French データセット
+    - a subset of 12M sentences consisting of 348M French words and 304M English words
+- 単語をベクトル表現に変換するのが一般的であるが，我々は両言語ともに固定長のベクトル表現を使う．
+    - ソース言語は16万語の辞書，ターゲット言語は8万語の辞書を使用．
+    - 未知語が出てきた場合は，"UNK"のトークンを与える． 
 
 ### 関連研究
 
