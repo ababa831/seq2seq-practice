@@ -74,7 +74,7 @@ WMT’14 English to French MT タスク
 #### データセット
 - WMT’14 English to French データセット
     - a subset of 12M sentences consisting of 348M French words and 304M English words
-- 単語をベクトル表現に変換するのが一般的である．我々は両言語ともに固定長のベクトル表現を使う．
+- 単語をベクトル表現に変換するのが一般的である．両言語ともに固定長のベクトル表現を使う．
     - ソース言語は16万語の辞書，ターゲット言語は8万語の辞書を使用．
     - 未知語が出てきた場合は，"UNK"のトークンを与える． 
 
