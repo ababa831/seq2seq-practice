@@ -20,7 +20,7 @@ Seq2Seqの論文とその関連（主要）研究を読み，実際にデモを�
 論文を読んだメモは[memo.md](https://github.com/ababa893/seq2seq-practice/blob/master/memo.md)に．
 
 ### Experiment
-実験用コードを`model_experiment.ipynb`に作成．まだ上手く推定できていない．
+実験用コードを[model_experiment.ipynb](https://github.com/ababa893/seq2seq-practice/blob/master/model_experiment.ipynb)に作成．まだ上手く推定できていない．
 
 TODO: 穴埋めに使用したダミー変数(0)に過学習する問題を修正する
 
