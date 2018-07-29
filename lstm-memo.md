@@ -1,6 +1,6 @@
 # lstm-memo
 
-This memo contains summary of journals or articles associate with **Long-Short Term Memory (LSTM)**, **Gated Recurrent Unit(GRU)**, or **some technologies related to LSTM**.
+This memo contains summary of journals or articles associate with **Long-Short Term Memory (LSTM)**, **Gated Recurrent Unit(GRU)**, or **technologies related to LSTM**.
 
 (I wrote memo in English to improve writing skills.)
 
