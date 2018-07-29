@@ -31,6 +31,7 @@ This memo contains summary of journals or articles associate with **Long-Short T
                     - with information come from `gates` 
                 - `Gate`: a way to optionally let information though
                     - ![Gate with a sigmoid output](https://github.com/ababa893/seq2seq-practice/blob/images/LSTM3-gate.png?raw=true)
+                        - Gate with a sigmoid output and a pointwise multiplication
 
 
 
