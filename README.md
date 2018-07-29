@@ -22,7 +22,15 @@ Seq2Seqの論文とその関連（主要）研究を読み，実際にデモを�
 ### Experiment
 実験用コードを[model_experiment.ipynb](https://github.com/ababa893/seq2seq-practice/blob/master/model_experiment.ipynb)に作成．まだ上手く推定できていない．
 
-TODO: 穴埋めに使用したダミー変数(0)に過学習する問題を修正する
+#### 実装上の注意点
+- 論文では`epochs=8`で設定されているが，これでは足りない（収束しきっていない．）．`epochs >= 50`は回さなければならない．
+- return_sequence=Trueの場合は全タイムステップ（系列）を出力するため，TimeDistibutedを加える意味がない！
+- encoder側のc(cell), h(hidden)をdecoder側に渡す必要がある．
+    - https://blog.keras.io/a-ten-minute-introduction-to-sequence-to-sequence-learning-in-keras.html
+    - encoder側の系列出力をそのままdecoder側に入力として使うと，連鎖的に誤差が大きくなっていき，学習安定性，収束性が悪くなるらしい．
+        - この場合，Teach Forcingという手法を使って解消することが多い
+            - https://blog.keras.io/a-ten-minute-introduction-to-sequence-to-sequence-learning-in-keras.html
+            - https://satopirka.com/2018/02/encoder-decoder%E3%83%A2%E3%83%87%E3%83%AB%E3%81%A8teacher-forcingscheduled-samplingprofessor-forcing/
 
 ### Model
 
