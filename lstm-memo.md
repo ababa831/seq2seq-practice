@@ -24,8 +24,13 @@ This memo contains summary of journals or articles associate with **Long-Short T
                     - `eacg lines` carries an entire vector, from the output of one node to the inputs of others
                     - `pink circles` represent pointwise operations, like vector addition
                     - `yellow boxes` are learned neural network layers
+                        - `σ` is a sigmoid function
                     - `Line merging` denote concatenation
                     - `Line forking` denote its content being copied and the copies going to different locations
+                - `Cell state`: the horizontal line running through the top of the diagram
+                    - with information come from `gates` 
+                - `Gate`: a way to optionally let information though
+                    - ![Gate with a sigmoid output](https://github.com/ababa893/seq2seq-practice/blob/images/LSTM3-gate.png?raw=true)
 
 
 
