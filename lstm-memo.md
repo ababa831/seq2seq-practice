@@ -32,6 +32,8 @@ This memo contains summary of journals or articles associate with **Long-Short T
                 - `Gate`: a way to optionally let information though
                     - ![Gate with a sigmoid output](https://github.com/ababa893/seq2seq-practice/blob/images/LSTM3-gate.png?raw=true)
                         - Gate with a sigmoid output and a pointwise multiplication
+                    - `sigmoid layer` outputs describe how much of each component should be let through (0-100%)
+                    - **An LSTM has 3 sigmoid gates to protect and control cell state**
 
 
 
