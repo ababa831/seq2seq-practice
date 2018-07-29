@@ -20,7 +20,7 @@ Seq2Seqの論文とその関連（主要）研究を読み，実際にデモを�
 論文を読んだメモは[memo.md](https://github.com/ababa893/seq2seq-practice/blob/master/memo.md)に．
 
 ### Experiment
-実験用コードを[model_experiment.ipynb](https://github.com/ababa893/seq2seq-practice/blob/master/model_experiment.ipynb)に作成．
+実験用コードを[model_experiment.ipynb](https://github.com/ababa893/seq2seq-practice/blob/master/model_experiment.ipynb)に作成．学習ログの`val_loss`をみると，収束安定性は良くない．
 
 #### 実装上の注意点
 - 論文では`epochs=8`で設定されているが，これでは足りない（収束しきっていない．）．`epochs >= 50`は回さなければならない．
